@@ -1,6 +1,21 @@
 *{
     box-sizing: border-box;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.header-title {
+    margin: 0;
+    display: inline;
+    color: rgb(241, 134, 34);
+    font-family: 'Indie Flower', cursive;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+}
 body {
     background-image: url(https://petstockimages.blob.core.windows.net/blog/blog-catdog.jpg);
     background-size: cover;

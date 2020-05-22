@@ -67,7 +67,7 @@ btnEditPet.addEventListener('click', (e) => {
     const url = '/api/pets/edit'
     
     axios.patch(url, params).then(res => {
-        console.log('bug')
+        location.reload();
     })
     
     editFrm.reset();
@@ -92,7 +92,6 @@ btnPostNewPet.addEventListener('click', e => {
     const url = '/api/pets/new'
     
     axios.post(url, params).then(res => {
-        console.log('bug')
         location.reload();
     })
    

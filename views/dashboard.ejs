@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <title>Dashboard</title>
 
@@ -13,12 +14,17 @@
 <body>
 
 <main class="main">
-
-    <header class="status-header">
-        <h2 class="status-element">Logged in as <%= user.username %> //</h2>
-        <input class="hidden-id" type="hidden" value="<%= user.id%>">
-        <a href="/logout" class="status-element">Log out</a>
-        <img class="status-element" height="50px"src="https://i.pinimg.com/originals/37/a8/d8/37a8d8ddeb69604f4a042ddfa345a577.png">
+    <header>
+        <div class="header-logo">
+            <img src="/Logo.png" alt="" height="50px">
+            <h1 class="header-title">&ensp; My Pet </h1>
+        </div>
+        <div class="status-header">
+            <h2 class="status-element">Logged in as <%= user.username %> //</h2>
+            <input class="hidden-id" type="hidden" value="<%= user.id%>">
+            <a href="/logout" class="status-element">Log out</a>
+            <img class="status-element" height="50px"src="https://i.pinimg.com/originals/37/a8/d8/37a8d8ddeb69604f4a042ddfa345a577.png">
+        </div>
     </header>
 
     <div class="layout_3_7"> <!-- Overall container -->
