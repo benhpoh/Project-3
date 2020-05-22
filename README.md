@@ -2,7 +2,7 @@
 
 <h2>:dog:App: MyPet:rabbit:</h2>
 
-<img src="login.jpg" width="400" height="250">
+<img src="login.jpg" width="400" height="250" display="inline-block">
 <img src="dashboard.jpg" width="400" height="250">
 
 Intro:
